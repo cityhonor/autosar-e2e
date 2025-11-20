@@ -138,3 +138,5 @@ dmypy.json
 
 /autosar_specs/
 /src/e2e/_version.py
+
+*.out
