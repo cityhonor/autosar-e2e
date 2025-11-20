@@ -1,0 +1,34 @@
+{
+    "tasks": [
+        {
+            "type": "shell",
+            "label": "C/C++: gcc 生成活动文件",
+            "command": "d:/Software/x86_64-15.2.0-release-posix-seh-ucrt-rt_v13-rev0/mingw64/bin/gcc.exe",
+            "args": [
+                "-fdiagnostics-color=always",
+                "-g",
+                "${workspaceFolder}/autosar-e2e-c/crc/src/fast/*.c",
+                "${workspaceFolder}/autosar-e2e-c/e2e/src/*.c",
+                "${workspaceFolder}/autosar-e2e-c/e2e/test/P05/E2E_P05Protect_tests.c",
+                "-o",
+                "${workspaceFolder}/e2e.out",
+                "-I","${workspaceFolder}/autosar-e2e-c/common/include",
+                "-I","${workspaceFolder}/autosar-e2e-c/crc/include",
+                "-I","${workspaceFolder}/autosar-e2e-c/e2e/include"
+
+            ],
+            "options": {
+                "cwd": "${fileDirname}"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "detail": "调试器生成的任务。"
+        }
+    ],
+    "version": "2.0.0"
+}

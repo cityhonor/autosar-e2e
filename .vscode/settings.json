@@ -1,0 +1,29 @@
+{
+    "search.exclude": {
+        "**/*.code-search": true,
+        "**/*.html": true,
+        "**/*.txt": true,
+        "**/*.mak":true,
+        "**/*.xs":true,
+        "**/*.js":true
+    },
+    "files.exclude": {
+    },
+    "files.associations": {
+        "type_traits": "c",
+        "array": "c",
+        "bit": "c",
+        "climits": "c",
+        "cmath": "c",
+        "compare": "c",
+        "concepts": "c",
+        "cstdio": "c",
+        "cstdlib": "c",
+        "initializer_list": "c",
+        "limits": "c",
+        "new": "c",
+        "cstdbool": "c",
+        "cstdint": "c",
+        "typeinfo": "c"
+    }
+}
